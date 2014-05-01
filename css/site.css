@@ -1,0 +1,133 @@
+/* 
+    Created on : Apr 23, 2014, 10:23:24 PM
+    Author     : ahmed
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#containerId{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.flag{
+    border: 0;
+    width: 30px !important;
+    height: 20px !important;
+}
+
+nav {
+    background-color: #357ebd;
+    margin: 0 !important;
+    padding: 5px 10px !important;
+}
+
+nav ul{
+    display: inline;
+    float: left;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    margin-right: 20px !important;
+}
+
+nav a{
+    color: white;
+    margin-right: 10px;
+}
+
+nav a:last-child{
+    margin-right: 0;
+}
+
+nav a:hover{
+    color: #efefef;
+    text-decoration: none;
+}
+
+nav span {
+    float: right;
+}
+
+nav span a{
+    margin-left: 10px;
+}
+
+.welcome-user {
+    float: left;
+    color: #fcf8e3;
+}
+
+button{
+    border-radius: 0 !important;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.modal-footer {
+    margin-top: 0;
+}
+
+.form-group:last-child{
+    margin-bottom: 0;
+}
+
+.well, .panel {
+    border-radius: 0 !important;
+}
+
+.loginTitle{
+    padding: 15px;
+}
+
+.alert {
+    border-radius: 0;
+}
+
+input[type='text'], input[type='password'], textarea, a[role="button"] {
+    border-radius: 0;
+}
+
+.text-color-red {
+    color: red;
+}
+
+.hidden-row {
+    color: #ccc;
+}
+
+.hidden-row img {
+    /* Theoretically for IE 8 & 9 (more valid) */	
+    /* ...but not required as filter works too */
+    /* should come BEFORE filter */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+
+    /* This works in IE 8 & 9 too */
+    /* ... but also 5, 6, 7 */
+    filter: alpha(opacity=40);
+
+    /* Older than Firefox 0.9 */
+    -moz-opacity:0.4;
+
+    /* Safari 1.x (pre WebKit!) */
+    -khtml-opacity: 0.4;
+
+    /* Modern!
+    /* Firefox 0.9+, Safari 2?, Chrome any?
+    /* Opera 9+, IE 9+ */
+    opacity: 0.4;
+}
